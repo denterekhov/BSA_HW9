@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.App {
+  margin: 0 auto;
+  padding: 30px;
+  width: 50%;
+  min-width: 300px;
+  background-color: #eee;
+}
+
+.userForm {
+  margin: 0 auto 30px;
+  width: 60%;
+  text-align: center;
+}
+
+.userForm input {
+  padding: 5px;
+}
+
+.userForm button {
+  margin-left: 20px;
+  width: 50px;
+  height: 30px;
+  background-color: #42f;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.userList {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.userItem {
+  text-align: justify;
+  line-height: 30px;
+  /*vertical-align: middle;*/
+}
+
+.userItem p {
+  display: inline-block;
+  vertical-align: middle;
+  float: left;
+}
+
+.userItem button {
+  float: right;
+  width: 50px;
+  height: 25px;
+  background-color: #f40;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 10px;
+
+}
+
